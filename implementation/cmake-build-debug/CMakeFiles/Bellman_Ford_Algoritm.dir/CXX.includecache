@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Programowanie/C++/Bellman-Ford_Algoritm/cmake-build-debug/vertex.cpp
+vertex.h
+F:/Programowanie/C++/Bellman-Ford_Algoritm/cmake-build-debug/vertex.h
+
+F:/Programowanie/C++/Bellman-Ford_Algoritm/cmake-build-debug/vertex.h
+
+F:/Programowanie/C++/Bellman-Ford_Algoritm/main.cpp
+iostream
+-
+vertex.cpp
+F:/Programowanie/C++/Bellman-Ford_Algoritm/vertex.cpp
+
