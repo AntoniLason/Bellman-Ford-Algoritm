@@ -62,10 +62,10 @@ RM = C:\Users\13ant\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Programowanie\C++\Bellman-Ford_Algoritm
+CMAKE_SOURCE_DIR = F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -92,14 +92,14 @@ clean: CMakeFiles/Bellman_Ford_Algoritm.dir/clean
 CMakeFiles/Bellman_Ford_Algoritm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bellman_Ford_Algoritm.dir\build.make CMakeFiles/Bellman_Ford_Algoritm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bellman_Ford_Algoritm.dir\build.make CMakeFiles/Bellman_Ford_Algoritm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Bellman_Ford_Algoritm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Bellman_Ford_Algoritm"
 .PHONY : CMakeFiles/Bellman_Ford_Algoritm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Bellman_Ford_Algoritm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Bellman_Ford_Algoritm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Bellman_Ford_Algoritm.dir/rule
 
 # Convenience name for target.

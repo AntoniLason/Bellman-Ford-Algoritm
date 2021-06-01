@@ -61,10 +61,10 @@ RM = C:\Users\13ant\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Programowanie\C++\Bellman-Ford_Algoritm
+CMAKE_SOURCE_DIR = F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Bellman_Ford_Algoritm.dir/depend.make
@@ -77,45 +77,30 @@ include CMakeFiles/Bellman_Ford_Algoritm.dir/flags.make
 
 CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj: CMakeFiles/Bellman_Ford_Algoritm.dir/flags.make
 CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bellman_Ford_Algoritm.dir\main.cpp.obj -c F:\Programowanie\C++\Bellman-Ford_Algoritm\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bellman_Ford_Algoritm.dir\main.cpp.obj -c F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\main.cpp
 
 CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Programowanie\C++\Bellman-Ford_Algoritm\main.cpp > CMakeFiles\Bellman_Ford_Algoritm.dir\main.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\main.cpp > CMakeFiles\Bellman_Ford_Algoritm.dir\main.cpp.i
 
 CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Programowanie\C++\Bellman-Ford_Algoritm\main.cpp -o CMakeFiles\Bellman_Ford_Algoritm.dir\main.cpp.s
-
-CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.obj: CMakeFiles/Bellman_Ford_Algoritm.dir/flags.make
-CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.obj: ../Vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bellman_Ford_Algoritm.dir\Vertex.cpp.obj -c F:\Programowanie\C++\Bellman-Ford_Algoritm\Vertex.cpp
-
-CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Programowanie\C++\Bellman-Ford_Algoritm\Vertex.cpp > CMakeFiles\Bellman_Ford_Algoritm.dir\Vertex.cpp.i
-
-CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Programowanie\C++\Bellman-Ford_Algoritm\Vertex.cpp -o CMakeFiles\Bellman_Ford_Algoritm.dir\Vertex.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\main.cpp -o CMakeFiles\Bellman_Ford_Algoritm.dir\main.cpp.s
 
 # Object files for target Bellman_Ford_Algoritm
 Bellman_Ford_Algoritm_OBJECTS = \
-"CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj" \
-"CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.obj"
+"CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj"
 
 # External object files for target Bellman_Ford_Algoritm
 Bellman_Ford_Algoritm_EXTERNAL_OBJECTS =
 
 Bellman_Ford_Algoritm.exe: CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj
-Bellman_Ford_Algoritm.exe: CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.obj
 Bellman_Ford_Algoritm.exe: CMakeFiles/Bellman_Ford_Algoritm.dir/build.make
 Bellman_Ford_Algoritm.exe: CMakeFiles/Bellman_Ford_Algoritm.dir/linklibs.rsp
 Bellman_Ford_Algoritm.exe: CMakeFiles/Bellman_Ford_Algoritm.dir/objects1.rsp
 Bellman_Ford_Algoritm.exe: CMakeFiles/Bellman_Ford_Algoritm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Bellman_Ford_Algoritm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Bellman_Ford_Algoritm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Bellman_Ford_Algoritm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +113,6 @@ CMakeFiles/Bellman_Ford_Algoritm.dir/clean:
 .PHONY : CMakeFiles/Bellman_Ford_Algoritm.dir/clean
 
 CMakeFiles/Bellman_Ford_Algoritm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\Programowanie\C++\Bellman-Ford_Algoritm F:\Programowanie\C++\Bellman-Ford_Algoritm F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles\Bellman_Ford_Algoritm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles\Bellman_Ford_Algoritm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Bellman_Ford_Algoritm.dir/depend
 

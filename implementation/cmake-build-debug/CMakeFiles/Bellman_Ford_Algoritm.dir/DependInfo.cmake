@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/Programowanie/C++/Bellman-Ford_Algoritm/main.cpp" "F:/Programowanie/C++/Bellman-Ford_Algoritm/cmake-build-debug/CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj"
-  "F:/Programowanie/C++/Bellman-Ford_Algoritm/Vertex.cpp" "F:/Programowanie/C++/Bellman-Ford_Algoritm/cmake-build-debug/CMakeFiles/Bellman_Ford_Algoritm.dir/vertex.cpp.obj"
+  "F:/Programowanie/C++/Bellman-Ford-Algoritm/implementation/main.cpp" "F:/Programowanie/C++/Bellman-Ford-Algoritm/implementation/cmake-build-debug/CMakeFiles/Bellman_Ford_Algoritm.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -66,10 +66,10 @@ RM = C:\Users\13ant\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Programowanie\C++\Bellman-Ford_Algoritm
+CMAKE_SOURCE_DIR = F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford_Algoritm\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Programowanie\C++\Bellman-Ford-Algoritm\implementation\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,33 +141,6 @@ Bellman_Ford_Algoritm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bellman_Ford_Algoritm.dir\build.make CMakeFiles/Bellman_Ford_Algoritm.dir/build
 .PHONY : Bellman_Ford_Algoritm/fast
 
-Vertex.obj: Vertex.cpp.obj
-
-.PHONY : Vertex.obj
-
-# target to build an object file
-Vertex.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bellman_Ford_Algoritm.dir\build.make CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.obj
-.PHONY : Vertex.cpp.obj
-
-Vertex.i: Vertex.cpp.i
-
-.PHONY : Vertex.i
-
-# target to preprocess a source file
-Vertex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bellman_Ford_Algoritm.dir\build.make CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.i
-.PHONY : Vertex.cpp.i
-
-Vertex.s: Vertex.cpp.s
-
-.PHONY : Vertex.s
-
-# target to generate assembly for a file
-Vertex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Bellman_Ford_Algoritm.dir\build.make CMakeFiles/Bellman_Ford_Algoritm.dir/Vertex.cpp.s
-.PHONY : Vertex.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -204,9 +177,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Bellman_Ford_Algoritm
-	@echo ... Vertex.obj
-	@echo ... Vertex.i
-	@echo ... Vertex.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

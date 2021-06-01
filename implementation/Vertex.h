@@ -7,8 +7,11 @@
 
 #include <vector>
 
+
 class Vertex {
     int vertexNumber;
+    int currentVertexValue;
+    Vertex *predesesor;
     std::vector<std::pair<int, int> > edgeAndValue ; ///pierwsze w parze - wierzchołek (drugi koniec krawędzi), drugie w parze - wartość krawędzi
 public:
     Vertex() = default;
@@ -19,6 +22,10 @@ public:
     void setVertexNumber(int nr);
     int getVertexNumber();
     void setNextEdgeAndValue(int e, int v);
+    int getEdgeUnderIndex(int index); ///zwraca numer wierzchołka z edgeAndValues
+    int getValueUnderIndex(int index); ///zwraca wartość krawędzi z edgeAndValues
+    int getcurrentVertexValue ();
+    void setcurrentVdertexValue(int value);
 
 
 
