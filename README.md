@@ -5,24 +5,24 @@ Autor: Antoni Lasoń
 
 405432
 
- ##Krótka instrukcja obsługi
+ ## Krótka instrukcja obsługi
 
-Pobrać plik Bellman_Ford_Algoritm.exe, umieścić w tym samym folderze plik graf.txt,
-uruchomić. Aplikacja i przykłądowy plik graf.txt znajdują się w katalogu "Folder_Szybkiego_uruchomienia".
+Aby uruchomić program, należy obrać plik Bellman_Ford_Algoritm.exe, umieścić w tym samym folderze plik graf.txt,
+uruchomić. Aplikacja i przykładowy plik graf.txt znajdują się w katalogu "Folder_Szybkiego_uruchomienia".
 
-Jako punkt źrudłowy, w obec którego obliczane są wagi program przyjmyje pierwszy wierzchołek w pliku graf.txt. nadawany jest mu numer 0. Pozostałe wierzchołki numerowane są w kolejności wystąpień w pliku
+Jako punkt źrudłowy, w obec którego obliczane są wagi program przyjmyje pierwszy wierzchołek w pliku graf.txt. Nadawany jest mu numer 0. Pozostałe wierzchołki numerowane są w kolejności wystąpień w pliku
 
 W razie problemów z uruchomieniem aplikacji należy spróbować pobrać folder "implementation" a następnie skompilować i uruchomić pliki w nim zawarte. Projekt tworzony był w środowisku CLion z urzyciem zestawu nażędzi deweloperskich MinGW i pliku CMake.
 
 
 
 
-##format pliku graf.txt:
+## format pliku graf.txt:
 Jest to lista sąsiedztwa rozszerzona o wartość krawędzi łączącej wierzchołki. 
 Ilustrowany opis załączony jest jako "Opis_graf.txt"
 
 Należy zaznaćzyć, że 
-- cyfra 0, absolutny początek pliku, to całkowita liczba wierżchołków w grafie
+- cyfra jierwsza: absolutny początek pliku, to całkowita liczba wierżchołków w grafie
 
 - druga cyfra: liczba sąsiadujących wierzchołków.
 
@@ -36,7 +36,7 @@ jeżeli w pliku umieścimy więcej mniej niż należy, to może jść do niepopr
 
 Implementacja nie obsługuje wyjątków.
 
-przykłądy poprawnych plików:
+przykłady poprawnych plików:
 (poniższy przykład znajduje się w kodzie plikach repozytorium)
 ```
 6
