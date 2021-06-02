@@ -31,12 +31,12 @@ int main() {
         {
             graf[i].setVertexNumber(i);
             plik>>non;
+            graf[i].setcurrentVdertexValue(INT32_MAX); /// w przybliżeniu nieskończoność
             for(int ii=0; ii<non; ii++)
             {
                 plik >> vertex;
                 plik >> value;
                 graf[i].setNextEdgeAndValue(vertex, value);
-                graf[i].setcurrentVdertexValue(INT32_MAX); /// w przybliżeniu nieskończoność
                 edge a;
                 a.value = value;
                 a.begin = i;
@@ -49,7 +49,7 @@ int main() {
         graf[0].setcurrentVdertexValue(0); /// ustawiamy punkt startu
         for(int i =0; i<numberOfVersex; i++) /// iterujemy maksymalną ilość razy dla uproszczenia kodu,
         {
-            for(int ii = 0;  ii< edges.size(); ii++)
+            for(int ii = 0;  ii<= edges.size(); ii++)
             {
                 if(graf[edges[ii].begin].getcurrentVertexValue() + edges[ii].value < graf[edges[ii].end].getcurrentVertexValue() && graf[edges[ii].begin].getcurrentVertexValue()<INT32_MAX)//wiem, jest bardzo brzytko
                 {
@@ -64,6 +64,7 @@ int main() {
             if(graf[edges[ii].begin].getcurrentVertexValue() + edges[ii].value < graf[edges[ii].end].getcurrentVertexValue())
                 std::cout<<"---------!!Wykryto ujemny cykl!!---------"<<std::endl;
         }
+        std::cout<<edges.size()<<std::endl;
         std::cout<<"------Wyniki------"<<std::endl;
         std::cout<<"Wierzchołki:\t";
         for(int i = 0; i<numberOfVersex; i++ )
