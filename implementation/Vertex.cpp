@@ -44,3 +44,7 @@ void Vertex::setcurrentVdertexValue(int value)
 {
     currentVertexValue = value;
 }
+int Vertex::getSizeOfEAV()
+{
+    return edgeAndValue.size();
+}

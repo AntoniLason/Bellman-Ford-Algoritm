@@ -26,6 +26,7 @@ public:
     int getValueUnderIndex(int index); ///zwraca wartość krawędzi z edgeAndValues
     int getcurrentVertexValue ();
     void setcurrentVdertexValue(int value);
+    int getSizeOfEAV();
 
 
 
