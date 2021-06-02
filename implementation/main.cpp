@@ -2,6 +2,13 @@
 #include <fstream>
 #include "Vertex.cpp"
 
+///Niestety pewne struktury danych zostały przekombinowany, co zaciamnia kod
+struct edge
+{
+    int begin;
+    int end;
+    int value;
+};
 int main() {
     std::string h; ///tak, żeby w niekturych miejscach zatrzymać program
     std::fstream plik;
@@ -19,7 +26,7 @@ int main() {
         int non; ///liczba sąsiadów
         plik>>numberOfVersex;
         Vertex graf[numberOfVersex];
-        std::vector<std::pair<int, int> > edges; ///początek, koniec
+        std::vector<edge > edges; ///początek, koniec
         for(int i = 0; i<numberOfVersex; i++)
         {
             graf[i].setVertexNumber(i);
@@ -30,7 +37,11 @@ int main() {
                 plik >> value;
                 graf[i].setNextEdgeAndValue(vertex, value);
                 graf[i].setcurrentVdertexValue(INT32_MAX); /// w przybliżeniu nieskończoność
-                edges.push_back(std::make_pair( i, vertex ));
+                edge a;
+                a.value = value;
+                a.begin = i;
+                a.end = vertex;
+                edges.push_back(a);
             }
         }
 
@@ -40,20 +51,37 @@ int main() {
         {
             for(int ii = 0;  ii< edges.size(); ii++)
             {
-                if( graf[edges[ii].first].getcurrentVertexValue() < INT32_MAX && graf[edges[ii].first].getcurrentVertexValue()+)
+                if(graf[edges[ii].begin].getcurrentVertexValue() + edges[ii].value < graf[edges[ii].end].getcurrentVertexValue() && graf[edges[ii].begin].getcurrentVertexValue()<INT32_MAX)//wiem, jest bardzo brzytko
                 {
-                    graf[edges[ii].second].setcurrentVdertexValue()
+                    graf[edges[ii].end].setcurrentVdertexValue(graf[edges[ii].begin].getcurrentVertexValue() + edges[ii].value);
                 }
             }
         }
+        ///szukanie ujemnych cykli
 
+        for(int ii = 0;  ii< edges.size(); ii++)
+        {
+            if(graf[edges[ii].begin].getcurrentVertexValue() + edges[ii].value < graf[edges[ii].end].getcurrentVertexValue())
+                std::cout<<"---------!!Wykryto ujemny cykl!!---------"<<std::endl;
+        }
+        std::cout<<"------Wyniki------"<<std::endl;
+        std::cout<<"Wierzchołki:\t";
+        for(int i = 0; i<numberOfVersex; i++ )
+        {
+            std::cout<<"\t"<<i;
+        }
+        std::cout<<std::endl <<"wartości:\t";
+        for(int i = 0; i<numberOfVersex; i++ )
+        {
+            std::cout<<"\t"<<graf[i].getcurrentVertexValue();
+        }
     }
 
 
 
 
-plik.close();
-
+    plik.close();
+    std::cin>>h;
 
 
     ///Zakomentowany szybki test klasy. Wynik: działa
@@ -78,4 +106,5 @@ plik.close();
     std::cout<<"test10: "<<c.getEdgeUnderIndex(0)<<std::endl;
     std::cout<<"test11: "<<c.getValueUnderIndex(1)<<std::endl;
      */
+    return 0;
 }
